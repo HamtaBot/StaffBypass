@@ -1,1 +1,2 @@
-give staffbypass.joinfull to users and they will bypass server player limit
+use /staffbypass add <UUID> to add user to the whitelist 
+then /staffbypass reload to reload the config to take effect 
