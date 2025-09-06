@@ -7,11 +7,11 @@
 
     <groupId>fr.hamta</groupId>
     <artifactId>staffbypass</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <packaging>jar</packaging>
 
     <name>StaffBypass</name>
-    <description>Permet aux staffs de bypass la limite du serveur</description>
+    <description>Plugin pour bypass la limite serveur via liste d'UUID</description>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -27,7 +27,6 @@
     </repositories>
 
     <dependencies>
-        <!-- Dépendance Paper API pour 1.20.1 -->
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
@@ -44,19 +43,6 @@
                 <version>3.11.0</version>
                 <configuration>
                     <release>17</release>
-                </configuration>
-            </plugin>
-
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.3.0</version>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <mainClass>fr.hamta.StaffBypass</mainClass>
-                        </manifest>
-                    </archive>
                 </configuration>
             </plugin>
         </plugins>

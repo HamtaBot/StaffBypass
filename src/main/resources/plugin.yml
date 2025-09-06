@@ -1,11 +1,12 @@
 name: StaffBypass
-version: 1.0
+version: 1.1
 main: fr.hamta.StaffBypass
 api-version: 1.20
 author: Hamta
-description: Permet aux staffs avec une permission spéciale de bypass la limite du serveur.
+description: Permet à certains joueurs définis par UUID de bypass la limite du serveur.
 
-permissions:
-  staffbypass.joinfull:
-    description: Permet de bypass la limite du serveur.
-    default: op
+commands:
+  staffbypass:
+    description: Gestion du plugin StaffBypass
+    usage: /staffbypass <add|reload>
+    permission: op
